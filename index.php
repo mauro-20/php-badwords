@@ -33,7 +33,7 @@ $censured = str_replace($badWord, '***', $paragraph);
   </form>
   <h2>Censured</h2>
   <p><?php echo $censured ?></p>
-  <p>La lunghezza del paragrafo è di <?php echo strlen($paragraph) ?> caratteri</p>
+  <p>La lunghezza del paragrafo è di <?php echo strlen($censured) ?> caratteri</p>
 </body>
 
 </html>
